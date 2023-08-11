@@ -12,7 +12,7 @@ export const addTodo = (text) => {
 }
 
 export const deleteTodo = (id) => {
-  todos.update(todos => todos.filter(todo => todo.id != id))
+  todos.update(todos => todos.filter(todo => todo.id !== id))
 }
 
 // Define a function 'toggleTodoCompleted' to toggle the completed status of a todo item by its ID
