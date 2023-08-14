@@ -7,7 +7,6 @@
 	const handleSubmit = () => {
 		addTodo(todo);
 		todo = "";
-		console.log('submitting');
 	};
 </script>
 
@@ -17,7 +16,7 @@
 		<input
 			type="text"
 			name="todo"
-			placeholder="Enter task"
+			placeholder="ex. Learn about authentication in Next.js"
 			class="appearance-none shadow-sm border border-gray-200 p-2 focus:outline-none focus:border-gray-500 rounded-lg"
 			bind:value={todo}
 		/>
